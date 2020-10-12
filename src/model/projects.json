@@ -1,0 +1,112 @@
+{
+  "projects": [
+    {
+      "key": 1,
+      "name": "PROYECTO DE RESTAURACIÓN FORESTAL DE ORZADUERO",
+      "promoter": "Bosques Sostenibles",
+      "score": "AA-",
+      "price": 25,
+      "location": "Spain",
+      "availableAmount": 100000,
+      "maturityDate": "01-01-22",
+      "modality": "Spot",
+      "description": [
+        "El objetivo principal es la restauración de un área incendiada en el año 2009 que afectó a 4.200 ha en la Sierra de Gredos, mediante el uso de especies arbóreas autóctonas, consolidando un bosque con suficiente diversidad y vocación de permanencia que frene los procesos erosivos. Para ello Bosques Sostenibles S.L. firmará un convenio marco con la Junta de Castilla y León, gestora del espacio y entidad que supervisará el proyecto, el cual contará con Plan de Gestión y autorización anual para la ejecución de los trabajos."
+        ],
+      "impact": [13, 15, 8]
+    },
+    {
+      "key": 2,
+      "name": "RESERVA NATURAL VALLE IRUELAS",
+      "promoter": "Bosques Sostenibles",
+      "score": "AA+",
+      "price": 30,
+      "location": "Spain",
+      "availableAmount": 250000,
+      "maturityDate": "01-01-22",
+      "modality": "Spot",
+      "description": [
+        "El objetivo principal es la restauración de un área incendiada en el año 2019 de 140 hectáreas con especies arboladas autóctonas, consolidando un bosque con suficiente diversidad y vocación de permanencia. Para ello Bosques Sostenibles S.L. redactará un proyecto de ejecución y plan de gestión, incluyendo el diseño de la reforestación y las acciones de conservación que velen por su adecuado mantenimiento hasta alcanzar la etapa de madurez del arbolado."
+        ],
+      "impact": [13, 15, 8]
+    },
+    {
+      "key": 3,
+      "name": "Sierra de Gredos",
+      "promoter": "Bosques Sostenibles",
+      "score": "A+",
+      "price": 27,
+      "location": "Spain",
+      "availableAmount": 209000,
+      "maturityDate": "01-01-22",
+      "modality": "Spot",
+      "description": [""],
+      "impact": []
+    },
+    {
+      "key": 4,
+      "name": "Refloresting Belver",
+      "promoter": "Terras de Guidintesta",
+      "score": "AA+",
+      "price": 32,
+      "location": "Portugal",
+      "availableAmount": 170000,
+      "maturityDate": "01-01-22",
+      "modality": "Spot",
+      "description": [""],
+      "impact": []
+    },
+    {
+      "key": 5,
+      "name": "Agrupamento de Balio",
+      "promoter": "Baladi",
+      "score": "BB",
+      "price": 22,
+      "location": "Portugal",
+      "availableAmount": 1000000,
+      "maturityDate": "01-01-22",
+      "modality": "Spot",
+      "description": [""],
+      "impact": []
+    },
+    {
+      "key": 6,
+      "name": "Proyecto Forestal I",
+      "promoter": "Sylvestris",
+      "score": "AA-",
+      "price": 30,
+      "location": "Spain",
+      "availableAmount": 245000,
+      "maturityDate": "01-01-22",
+      "modality": "Spot",
+      "description": [""],
+      "impact": []
+    },
+    {
+      "key": 7,
+      "name": "Forestal España",
+      "promoter": "CO2 Revolution",
+      "score": "BB+",
+      "price": 22,
+      "location": "Spain",
+      "availableAmount": 32000,
+      "maturityDate": "01-01-22",
+      "modality": "Spot",
+      "description": [""],
+      "impact": []
+    },
+    {
+      "key": 8,
+      "name": "Pastagem Biodiversa",
+      "promoter": "TerraPrima",
+      "score": "AA+",
+      "price": 37,
+      "location": "Portugal",
+      "availableAmount": 47000,
+      "maturityDate": "01-01-22",
+      "modality": "Spot",
+      "description": [""],
+      "impact": []
+    }
+  ]
+}

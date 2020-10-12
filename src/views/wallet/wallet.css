@@ -1,0 +1,209 @@
+.walletpointer {
+    position: absolute;
+    width: 23px;
+    height: 145px;
+    left: 1px;
+    top: 403px;
+    z-index: 20;
+
+    background: #1D5808;
+}
+
+.wallet {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.walletgraph {
+    position: absolute;
+    width: 709px;
+    height: 163.12px;
+    left: 411px;
+    top: 243px;
+}
+
+.walletwheel {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1141px;
+    top: 207px;
+}
+
+.walletwheel svg {
+    width: 100%;
+    height: 100%;
+}
+
+.walletwheel circle {
+    cx: 125;
+    cy: 125;
+    r: 100;
+
+    stroke: #138E11;
+    stroke-width: 10;
+    stroke-dasharray: 471 700;
+    stroke-linecap: round;
+    transform: rotate(135deg);
+    transform-origin: 50% 50%;
+    
+    fill: transparent;
+}
+
+.percent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 17px;
+    line-height: 16px;
+}
+
+.wheeltext {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    font-size: 11px;
+    line-height: 16px;
+
+    border: 1px solid #506883;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.wallettable {
+    position: absolute;
+    left: 411px;
+    top: 465px;
+    width: 996px;
+
+    border-radius: 8px;
+}
+
+.wallettable tbody {
+    border: 1px solid #C2C9D1;
+}
+
+.wallettable th {
+    color: rgba(0, 0, 0, 0.5); 
+    border-bottom: 1px solid #C2C9D1;
+}
+
+.wallettable td {
+    border-bottom: 1px solid #C2C9D1;
+}
+
+.wallettable tr:nth-child(even) {
+    background: #F8F7F7;
+}
+
+.wallettablerow:hover td {
+    background: #e7e4e4;
+    cursor: pointer;
+}
+
+.investment {
+    text-align: right;
+}
+
+.walletoverview {
+    position: absolute;
+    left: 412px;
+    right: 576px;
+    top: 684px;
+    bottom: 58px;
+    width: 452px;
+    height: 282px;
+
+    border: 1px solid #C2C9D1;
+    border-radius: 8px;
+}
+
+.walletoverview th {
+    padding-left: 20px;
+
+    font-size: 17px;
+    line-height: 16px;
+
+    text-align: left;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.walletoverview tr:nth-child(even) {
+    background: #F8F7F7;
+}
+
+.centereddata {
+    text-align: center;
+}
+
+.walletlabels {
+    position: absolute;
+    width: 241px;
+    height: 282px;
+    left: 900px;
+    top: 684px;
+
+    background: #F8F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.walletlabels span {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #626461;
+}
+
+.co2neutral {
+    position: absolute;
+    width: 118px;
+    left: 11px;
+    top: 83px;
+}
+
+.carbonneutral {
+    position: absolute;
+    height: 131px;
+    left: 144px;
+    top: 78px;
+}
+
+.walletimpact {
+    position: absolute;
+    padding-top: 48px;
+    padding-left: 20px;
+    width: 221px;
+    height: 234px;
+    left: 1161px;
+    top: 684px;
+
+    background: #F8F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.walletimpact span {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #626461;
+}

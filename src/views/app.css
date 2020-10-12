@@ -1,0 +1,114 @@
+body {
+    position: relative;
+
+    background: #FFFFFF;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 108px;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+
+    background: #F8F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profilepic {
+    position: absolute;
+    width: 77px;
+    left: 20px;
+    top: 12px;
+
+    border-color: #C4C4C4;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header:hover {
+    cursor: pointer;
+}
+
+.username {
+    position: absolute;
+    margin-left: 26px;
+    height: 51px;
+    left: 97px;
+    top: 38px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #82867F;
+}
+
+.searchbar {
+    position: absolute;
+    width: 382px;
+    height: 46px;
+    left: 679px;
+    top: 31px;
+
+    background: #C4C4C4;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+}
+
+.sidebar {
+    position: absolute;
+    width: 382px;
+    left: 0px;
+    top: 108px;
+    z-index: 20;
+}
+
+.sidebar button {
+    width: 100%;
+    height: 147px;
+
+    background: #696968;
+    border: 0.03px solid #FFFFFF;
+    box-sizing: border-box;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.sidebar button:hover {
+    background: #333333;
+}
+
+button {
+    transition: all 0.5s;
+}
+
+button:enabled:hover {
+    cursor: pointer;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 990px;
+
+    background: #1D5808;
+}
