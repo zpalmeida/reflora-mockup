@@ -12,7 +12,7 @@ function PurchaseComplete(props) {
             </div>
             <div className='modalbottom'>
                 <span>
-                    Your investment has contributed to the removal of {props.removedtons()} tons on CO2 from the atmosphere.
+                    Your investment has contributed to the removal of {props.removedtons()} tons of CO2 from the atmosphere.
                 </span>
                 <br/>
                 <button onClick={props.closeModal}>Close</button>
