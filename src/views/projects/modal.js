@@ -12,7 +12,7 @@ function PurchaseComplete(props) {
             </div>
             <div className='modalbottom'>
                 <span>
-                    Your investment has contributed to the removal of XXXX tons on CO2 from the atmosphere.
+                    Your investment has contributed to the removal of {props.removedtons()} tons on CO2 from the atmosphere.
                 </span>
                 <br/>
                 <button onClick={props.closeModal}>Close</button>
@@ -172,6 +172,7 @@ class PurchasePanel extends React.Component {
                         <PurchaseComplete
                             open={this.state.purchaseComplete}
                             closeModal={this.cancel}
+                            removedtons={this.getAmount}
                         />
                     </div>
                 </div>
